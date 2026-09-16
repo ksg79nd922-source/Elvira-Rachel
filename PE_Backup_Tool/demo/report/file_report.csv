@@ -1,0 +1,5 @@
+﻿job,path,source_size_bytes,backup_size_bytes,size_equal,content_equal,status
+Job001,PE_result_example.txt,102,102,True,True,MATCH
+Job001,stat3910-study-notes.pdf,828912,828912,True,True,MATCH
+Job001,stat3911-study-notes.pdf,965681,965681,True,True,MATCH
+3911,stat3911-study-notes.pdf,965681,,,,MISSING_IN_BACKUP

@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>PE backup status</title><style>body{font:16px system-ui;margin:2rem;max-width:1500px}
+table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccc;padding:.55rem;text-align:left;vertical-align:top}
+th{background:#eef2f6}tr:nth-child(even){background:#f9fafb}.files{font-size:.88rem;min-width:700px}
+.files tr:nth-child(even){background:#f4f6f8}details{max-width:900px;overflow:auto}
+.hint{background:#fff7df;padding:1rem}</style><h1>PE results backup status</h1>
+<p>Generated: 2026-09-16T14:41:37+08:00<br>Source: /Users/elvirazhong/Desktop/PE_Backup_Tool/demo/P_PE_results<br>
+Backup: /Users/elvirazhong/Desktop/PE_Backup_Tool/demo/Tier3_PE_results<br>
+Source data scanned: 0.003 GiB<br>
+Source free space: 0.029 TiB;<br>
+Backup free space: 0.029 TiB</p>
+<p class="hint">This report provides evidence for team members.
+It never chooses or deletes files. MATCH means contents and directory structure match at scan time,
+not that a job is approved for deletion. This is a static report: rerun the scanner after files change.
+Files placed directly under the source root appear in the [ROOT FILES] row.</p><p>Python source scan: 0.001s;
+Excel scan: Not entered. Verification time is excluded from this comparison.</p>
+<p>Rows are sorted by source size, largest first. Access times depend on the drive's Windows/server settings
+and may be disabled or updated lazily.</p>
+<table><thead><tr><th>Job</th><th>Files</th><th>GiB</th><th>Folder modified</th>
+<th>Folder accessed</th><th>Latest file modified</th><th>Latest file accessed</th><th>Scanned at</th>
+<th>Verification</th><th>Team action prompt</th><th>Missing / extra / different files</th>
+<th>Difference details</th></tr></thead><tbody><tr><td>Job001</td><td>3</td><td>0.002</td><td>2026-09-16T11:22:28+08:00</td><td>2026-09-16T11:22:30+08:00</td><td>2026-09-16T11:21:20+08:00</td><td>2026-09-16T14:33:55+08:00</td><td>2026-09-16T14:41:37+08:00</td><td>MATCH</td><td>Backup matches; team reviews any cleanup</td><td>0 / 0 / 0</td><td><details><summary>Show 3 files</summary><table class=files><thead><tr><th>File</th><th>Source bytes</th><th>Backup bytes</th><th>Size equal</th><th>Content equal</th><th>Status</th></tr></thead><tbody><tr><td>PE_result_example.txt</td><td>102</td><td>102</td><td>YES</td><td>YES</td><td>MATCH</td></tr><tr><td>stat3910-study-notes.pdf</td><td>828,912</td><td>828,912</td><td>YES</td><td>YES</td><td>MATCH</td></tr><tr><td>stat3911-study-notes.pdf</td><td>965,681</td><td>965,681</td><td>YES</td><td>YES</td><td>MATCH</td></tr></tbody></table></details></td></tr><tr><td>3911</td><td>1</td><td>0.001</td><td>2026-09-16T14:37:50+08:00</td><td>2026-09-16T14:37:52+08:00</td><td>2025-08-29T11:02:24+08:00</td><td>2026-09-16T14:37:53+08:00</td><td>2026-09-16T14:41:37+08:00</td><td>NOT_BACKED_UP</td><td>Team to arrange backup</td><td>1 / 0 / 0</td><td><details><summary>Show 1 files</summary><table class=files><thead><tr><th>File</th><th>Source bytes</th><th>Backup bytes</th><th>Size equal</th><th>Content equal</th><th>Status</th></tr></thead><tbody><tr><td>stat3911-study-notes.pdf</td><td>965,681</td><td>—</td><td>—</td><td>—</td><td>MISSING_IN_BACKUP</td></tr></tbody></table></details></td></tr></tbody></table>
+<p>Job summary: report.csv. Every file and its size result: file_report.csv. Full data: report.json.</p></html>

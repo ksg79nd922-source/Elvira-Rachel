@@ -1,0 +1,2 @@
+This is a local PE result example.
+It represents a file that would normally be stored on the P drive.

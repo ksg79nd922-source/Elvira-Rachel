@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-09-16T14:41:37+08:00",
+  "source_root": "/Users/elvirazhong/Desktop/PE_Backup_Tool/demo/P_PE_results",
+  "backup_root": "/Users/elvirazhong/Desktop/PE_Backup_Tool/demo/Tier3_PE_results",
+  "source_disk": {
+    "total_bytes": 245107195904,
+    "used_bytes": 212800471040,
+    "free_bytes": 32306724864,
+    "free_tib": 0.029
+  },
+  "backup_disk": {
+    "total_bytes": 245107195904,
+    "used_bytes": 212800471040,
+    "free_bytes": 32306724864,
+    "free_tib": 0.029
+  },
+  "jobs": [
+    {
+      "job": "Job001",
+      "scope": "job",
+      "source": "/Users/elvirazhong/Desktop/PE_Backup_Tool/demo/P_PE_results/Job001",
+      "backup": "/Users/elvirazhong/Desktop/PE_Backup_Tool/demo/Tier3_PE_results/Job001",
+      "file_count": 3,
+      "size_bytes": 1794695,
+      "folder_modified": "2026-09-16T11:22:28+08:00",
+      "folder_accessed": "2026-09-16T11:22:30+08:00",
+      "latest_file_modified": "2026-09-16T11:21:20+08:00",
+      "latest_file_accessed": "2026-09-16T14:33:55+08:00",
+      "scanned_at": "2026-09-16T14:41:37+08:00",
+      "source_scan_seconds": 0.0001,
+      "backup_scan_seconds": 0.0002,
+      "verification_seconds": 0.0048,
+      "status": "MATCH",
+      "missing_files": 0,
+      "extra_files": 0,
+      "different_files": 0,
+      "missing_dirs": 0,
+      "extra_dirs": 0,
+      "differences": [],
+      "file_results": [
+        {
+          "path": "PE_result_example.txt",
+          "source_size_bytes": 102,
+          "backup_size_bytes": 102,
+          "size_equal": true,
+          "content_equal": true,
+          "status": "MATCH"
+        },
+        {
+          "path": "stat3910-study-notes.pdf",
+          "source_size_bytes": 828912,
+          "backup_size_bytes": 828912,
+          "size_equal": true,
+          "content_equal": true,
+          "status": "MATCH"
+        },
+        {
+          "path": "stat3911-study-notes.pdf",
+          "source_size_bytes": 965681,
+          "backup_size_bytes": 965681,
+          "size_equal": true,
+          "content_equal": true,
+          "status": "MATCH"
+        }
+      ],
+      "copy_result": null
+    },
+    {
+      "job": "3911",
+      "scope": "job",
+      "source": "/Users/elvirazhong/Desktop/PE_Backup_Tool/demo/P_PE_results/3911",
+      "backup": "/Users/elvirazhong/Desktop/PE_Backup_Tool/demo/Tier3_PE_results/3911",
+      "file_count": 1,
+      "size_bytes": 965681,
+      "folder_modified": "2026-09-16T14:37:50+08:00",
+      "folder_accessed": "2026-09-16T14:37:52+08:00",
+      "latest_file_modified": "2025-08-29T11:02:24+08:00",
+      "latest_file_accessed": "2026-09-16T14:37:53+08:00",
+      "scanned_at": "2026-09-16T14:41:37+08:00",
+      "source_scan_seconds": 0.0004,
+      "backup_scan_seconds": null,
+      "verification_seconds": 0.0,
+      "status": "NOT_BACKED_UP",
+      "missing_files": 1,
+      "extra_files": 0,
+      "different_files": 0,
+      "missing_dirs": 0,
+      "extra_dirs": 0,
+      "differences": [
+        "missing: stat3911-study-notes.pdf"
+      ],
+      "file_results": [
+        {
+          "path": "stat3911-study-notes.pdf",
+          "source_size_bytes": 965681,
+          "backup_size_bytes": null,
+          "size_equal": null,
+          "content_equal": null,
+          "status": "MISSING_IN_BACKUP"
+        }
+      ],
+      "copy_result": null
+    }
+  ],
+  "total_seconds": 0.0059,
+  "source_scan_seconds": 0.0005,
+  "benchmark": {
+    "python_source_scan_seconds": 0.0005,
+    "excel_scan_seconds": null,
+    "comparable_only_if_same_jobs_and_same_scan_scope": true
+  }
+}
