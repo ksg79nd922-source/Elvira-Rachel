@@ -15,3 +15,6 @@ if errorlevel 1 (
   py pe_backup_web.py --config config.json
 )
 if errorlevel 1 pause
+
+cd ~/Desktop/PE_Backup_Tool
+python3 pe_backup_web.py --config config.local-demo.json
